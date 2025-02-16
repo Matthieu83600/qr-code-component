@@ -9,16 +9,6 @@
   --fontWeight-normal: 400;
   --fontWeight-bold: 700;
 }
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 /* Globales */
 body {
   background-color: var(--lightGray);
@@ -26,7 +16,7 @@ body {
   font-weight: var(--fontWeight-normal);
 }
 .container {
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   place-items: center;
 }
@@ -37,10 +27,7 @@ body {
   padding: 1rem 1rem 2.5rem 1rem;
   box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
 }
-.card__img {
-  background-image: url(images/image-qr-code.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+.card__img img {
   height: 18rem;
   max-width: 100%;
   border-radius: 10px;
@@ -48,7 +35,6 @@ body {
 }
 .card__content {
   text-align: center;
-  height: 8.1875rem;
   max-width: 100%;
 }
 .card__content-title {
