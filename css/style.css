@@ -24,8 +24,8 @@ body {
   background-color: var(--white);
   border-radius: 20px;
   max-width: 20rem;
-  padding: 1rem 1rem 2.5rem 1rem;
-  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+  padding: 1rem 1rem 2rem;
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
 }
 .card__img img {
   height: 18rem;
@@ -35,7 +35,6 @@ body {
 }
 .card__content {
   text-align: center;
-  max-width: 100%;
 }
 .card__content-title {
   font-size: 1.375rem;
